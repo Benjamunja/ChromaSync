@@ -1,6 +1,7 @@
 # ChromaSync Privacy Policy
 
-**Effective Date: January 2025** **Last Updated: December 2025**
+**Effective Date: January 2025**  
+**Last Updated: January 2025**
 
 ## 1. Introduction
 
@@ -23,54 +24,91 @@ ChromaSync is designed with privacy in mind. We collect minimal information:
 We are committed to your privacy. We do NOT collect:
 
 - Personal identification information (name, email, phone number, address)
-- Location data (GPS coordinates, precise location)
+- Precise location data (GPS coordinates)
 - Contacts, calendar, or other personal data
 - Biometric data
 - Payment information (the App is free to use)
 - Your photos (they never leave your device)
-- Usage analytics or app activity tracking
-- Device identifiers for tracking purposes (except as required by AdMob)
+- Usage analytics or app activity tracking (except ad-related analytics handled by AdMob)
 
 ### 2.3 Automatic Information Collection
 
 The App may automatically collect certain limited information necessary for functionality:
 
-- **Device Information**: Basic device information (model, operating system version) may be collected by third-party services (Google AdMob) for advertising purposes.
+- **Device Information**: Basic device information (model, operating system version) may be collected by third-party services (Google AdMob) for advertising and tracking purposes.
 - **App Version**: The App version may be displayed in settings for support purposes.
+
+### 2.4 Data Used for Tracking
+
+**Important**: The following data collected by third-party advertising services (Google AdMob) is used for tracking purposes:
+
+- **Device Identifiers**: IDFA (iOS) and AAID (Android) are used to track your activity across apps and websites
+- **Device Information**: Device characteristics used to build advertising profiles
+- **Location Data**: General location (country/region) used for targeted advertising
+- **Ad Interaction Data**: Information about how you interact with advertisements
+- **IP Address**: Used for tracking and attribution purposes
+
+This tracking data is used to:
+- Link your activity across different apps and websites
+- Deliver personalized advertisements
+- Measure advertising effectiveness
+- Build advertising profiles for targeted advertising
+
+**Your Control**: You can limit or prevent tracking by adjusting your device settings as described in Section 7.3.
 
 ## 3. Third-Party Services and Data Collection
 
-### 3.1 Google AdMob
+### 3.1 Google AdMob and User Tracking
 
-ChromaSync uses Google AdMob to display advertisements. This service may collect certain information to provide and improve advertising services:
+ChromaSync uses Google AdMob to display advertisements. This service collects certain information to provide and improve advertising services, including for tracking purposes.
 
-**Information Collected by AdMob:**
-- Device identifiers (advertising IDs such as IDFA on iOS and AAID on Android)
-- Device information (model, operating system, screen resolution)
-- General location data (country/region level, not precise location)
-- App usage data related to ad interactions (clicks, impressions)
-- IP address (anonymized)
+**Information Collected by AdMob (Used for Tracking):**
+- **Device Identifiers**: Advertising IDs such as IDFA (Identifier for Advertisers) on iOS and AAID (Android Advertising ID) on Android. These identifiers are used to track your activity across apps and websites owned by other companies for advertising purposes.
+- **Device Information**: Device model, operating system version, screen resolution, and other technical specifications
+- **Location Data**: General location data at the country/region level (not precise GPS coordinates)
+- **App Usage Data**: Data related to ad interactions, including ad clicks, impressions, and engagement metrics
+- **IP Address**: Anonymized IP address information
+- **User Activity**: Information about your interactions with advertisements, which may be linked to your device identifier and used to track your activity across other apps and websites
+
+**Tracking Across Apps and Websites:**
+The data collected by AdMob, particularly device identifiers (IDFA/AAID), is used for tracking purposes. This means:
+- Your device identifier may be shared with third-party advertising networks
+- Your activity may be tracked across different apps and websites
+- This tracking is used to deliver personalized advertisements and measure advertising effectiveness
+- The tracking occurs even when you are not actively using ChromaSync
 
 **App Tracking Transparency (iOS):**
 - On iOS 14.5 and later, ChromaSync requests permission to track your activity across apps and websites for personalized advertising
+- This permission is requested through the App Tracking Transparency framework
 - You can choose to allow or deny this permission when prompted
-- If you deny tracking permission, you will still see ads, but they may be less relevant to your interests
+- If you deny tracking permission, you will still see ads, but they may be less relevant to your interests and tracking will be limited
 - You can change this setting at any time in iOS Settings > Privacy & Security > Tracking
 
+**SKAdNetwork (iOS Attribution):**
+ChromaSync uses Apple's SKAdNetwork for privacy-preserving ad attribution. This allows advertisers to measure the effectiveness of their campaigns without accessing your personal information. SKAdNetwork identifiers are used for attribution purposes and may be shared with advertising partners.
+
 **How AdMob Uses This Information:**
-- To show you relevant advertisements
-- To measure ad performance
+- To show you relevant, personalized advertisements
+- To track your activity across apps and websites for advertising purposes
+- To measure ad performance and attribution
 - To prevent fraud and abuse
 - To comply with legal requirements
+- To build advertising profiles for targeted advertising
 
 **Your Control:**
-You can opt out of personalized advertising by adjusting your device settings:
+You can opt out of personalized advertising and limit tracking by adjusting your device settings:
 
-- **iOS**: Settings > Privacy & Security > Apple Advertising > Limit Ad Tracking
-- **Android**: Settings > Google > Ads > Opt out of Ads Personalization
+- **iOS**: 
+  - Settings > Privacy & Security > Tracking > Turn off "Allow Apps to Request to Track"
+  - Settings > Privacy & Security > Apple Advertising > Limit Ad Tracking
+- **Android**: 
+  - Settings > Google > Ads > Opt out of Ads Personalization
+  - Settings > Privacy > Ads > Reset advertising ID
 
-For more information about Google's data practices, please visit:  
-[https://policies.google.com/privacy](https://policies.google.com/privacy)
+**Important Note**: Even if you opt out of personalized advertising, you may still see ads, but they will be less relevant to your interests. Some data collection may still occur for basic ad serving and fraud prevention.
+
+For more information about Google's data practices and how they use data for tracking, please visit:  
+https://policies.google.com/privacy
 
 ### 3.2 Expo Services
 
@@ -93,12 +131,15 @@ We use locally stored information to:
 - Remember your preferences (language, units, export quality)
 - Enable app features (grid planner, batch editing)
 
-### 4.3 Advertising
+### 4.3 Advertising and Tracking
 
 AdMob uses collected information to:
-- Display relevant advertisements
-- Measure advertising effectiveness
+- Display relevant, personalized advertisements
+- Track your activity across apps and websites for advertising purposes
+- Measure advertising effectiveness and attribution
+- Build advertising profiles for targeted advertising
 - Prevent fraudulent activity
+- Share data with third-party advertising partners for tracking and advertising purposes
 
 ## 5. Data Storage and Security
 
@@ -138,9 +179,22 @@ We implement appropriate technical measures to protect your data:
 
 We do not sell, trade, or rent your personal information to third parties. We do not share your media files, custom presets, or personal data with anyone.
 
-### 6.2 Third-Party Services
+### 6.2 Third-Party Services and Data Sharing
 
-As described in Section 3, Google AdMob may collect and use data for advertising purposes in accordance with their privacy policy. This is the only third-party service that collects data through our App.
+As described in Section 3, Google AdMob collects and uses data for advertising and tracking purposes. This data may be shared with:
+- Third-party advertising networks and partners
+- Data analytics providers
+- Attribution and measurement services
+- Other companies in the advertising ecosystem
+
+This sharing is done in accordance with Google AdMob's privacy policy and is used for tracking your activity across apps and websites for advertising purposes. Google AdMob is the primary third-party service that collects data through our App.
+
+**Data Sharing for Tracking:**
+When you grant tracking permission (on iOS) or when tracking is enabled (on Android), your device identifier and related data may be shared with multiple third-party companies for the purpose of tracking your activity across different apps and websites. This enables these companies to:
+- Deliver personalized advertisements
+- Measure advertising effectiveness
+- Build advertising profiles
+- Link your activity across different apps and websites
 
 ### 6.3 Legal Requirements
 
@@ -183,7 +237,7 @@ Since all data is stored locally on your device, you have full control and can:
 
 ChromaSync is not intended for children under the age of 13 (or the minimum age required in your jurisdiction). We do not knowingly collect personal information from children under 13.
 
-If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately at <benjaminliamharris@gmail.com>, and we will delete such information.
+If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately at benjaminliamharris@gmail.com, and we will delete such information.
 
 ## 9. International Users
 
@@ -215,7 +269,7 @@ If you are located in the European Economic Area (EEA), you have additional righ
 - **Right to Object**: You can object to processing of your data
 - **Right to Withdraw Consent**: You can withdraw consent at any time
 
-To exercise these rights, please contact us at <benjaminliamharris@gmail.com>.
+To exercise these rights, please contact us at benjaminliamharris@gmail.com.
 
 ## 12. Changes to This Privacy Policy
 
@@ -238,7 +292,7 @@ Since all data is stored locally on your device:
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:
 
-**Email**: <benjaminliamharris@gmail.com>
+**Email**: benjaminliamharris@gmail.com
 
 We will respond to your inquiry within a reasonable timeframe.
 
@@ -249,14 +303,47 @@ This Privacy Policy is designed to comply with:
 - **California Consumer Privacy Act (CCPA)** - United States
 - **Children's Online Privacy Protection Act (COPPA)** - United States
 - **Personal Information Protection and Electronic Documents Act (PIPEDA)** - Canada
+- **Apple App Store Privacy Requirements** - Including App Tracking Transparency and SKAdNetwork disclosures
+- **Google Play Store Privacy Requirements** - Including advertising ID and data collection disclosures
 - Other applicable privacy laws and regulations
 
-## 16. Acknowledgment
+## 16. Tracking Disclosure
+
+**Explicit Tracking Disclosure (Required by App Store):**
+
+ChromaSync contains the NSUserTrackingUsageDescription permission, which indicates that the app may request permission to track users. The data collected from this app, as described in Sections 2.4 and 3.1, **will be used for tracking purposes**. Specifically:
+
+1. **Device identifiers (IDFA/AAID)** collected through Google AdMob are used to track your activity across apps and websites owned by other companies.
+
+2. **This tracking is used for advertising purposes**, including:
+   - Delivering personalized advertisements
+   - Measuring advertising effectiveness
+   - Building advertising profiles
+   - Linking your activity across different apps and websites
+
+3. **Data may be shared with third-party advertising partners** for tracking purposes, as described in Section 6.2.
+
+4. **You have control over tracking** through your device settings:
+   - On iOS: You can deny the tracking permission when prompted, or disable it in Settings > Privacy & Security > Tracking
+   - On Android: You can opt out in Settings > Google > Ads > Opt out of Ads Personalization
+
+5. **If you deny tracking permission**, you will still be able to use the app and see advertisements, but the ads may be less relevant to your interests and tracking will be limited.
+
+This disclosure is provided in compliance with Apple's App Store requirements for apps that request tracking permission.
+
+## 17. Acknowledgment
 
 By using ChromaSync, you acknowledge that you have read, understood, and agree to this Privacy Policy. If you do not agree with any part of this policy, please do not use the App.
 
+**By using this app, you acknowledge that:**
+- Data collected through third-party advertising services (Google AdMob) may be used for tracking purposes
+- Your activity may be tracked across apps and websites for advertising purposes
+- You have the right to control tracking through your device settings
+- You understand that denying tracking permission may result in less relevant advertisements
+
 ---
 
-**ChromaSync** Transform your content with professional-grade aesthetic presets.
+**ChromaSync**  
+Transform your content with professional-grade aesthetic presets.
 
-For questions or concerns: <benjaminliamharris@gmail.com>
+For questions or concerns: benjaminliamharris@gmail.com
